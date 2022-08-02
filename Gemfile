@@ -45,4 +45,10 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'rails_12factor'
+  gem 'bigdecimal', '~> 1.2', '>= 1.2.7'
+  # gem 'bundler', '1.17.1' 
+end
+
 gem 'shortener'
